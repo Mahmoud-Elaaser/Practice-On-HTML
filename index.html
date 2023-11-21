@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="This Is Description For My First Page">
+        <title>My First Bage</title>
+        <style></style>
+        <script></script>
+    </head>
+    <body> 
+        <!-- Text Format -->
+        <p>This is <b>my First Bage</b></p>
+        <p>This is <strong>my First Bage</strong></p>
+        <p>This is <i>my First Bage</i></p>
+        <p>This is <em>my First Bage</em></p>
+        <p>This is <mark>my First Bage</mark></p>
+        <p>This is <u>my First Bage</u></p>
+        <p>This is <small>my First Bage</smaal></p>
+        <p>This is <del>my First Bage</del></p>
+        <p>This is my First <ins>Web</ins> Bage</p>
+        <p> 80$ <del>100$</del></p>
+        <!-- Mathimatics  -->
+        <p>H<sub>2</sub>O</p>
+        <p>CO<sub>2</sub></p>
+        <p>2<sup>3</sup></p>
+        <hr>
+        <!-- Links -->
+        <a href="https://www.google.com" target="_blank" title="Go To Google">Google</a> <br>
+        <a href="https://www.facebook.com" target="_blank" title="Go To Facebook">Facebook</a> <br>
+        <a href="mailto:mahmoudelaaser57@gmail.com">Contact Me</a> <br>
+        <a href="style.css">Go To CSS Page</a> <br>
+        <hr>
+        <!-- images -->
+        <img src="images/one.jpeg" alt="image Not Found" height="50px" width="50px">
+        <img src="images/two.jpeg" alt="image Not Found" height="50px" width="50px">
+        <hr>
+        <!-- list  -->
+        <!-- un ordered list = ul -->
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>
+                JS
+                <ul>
+                    <li>Angular</li>
+                    <li>React</li>
+                    <li>Vue</li>
+                </ul>
+            </li>
+        </ul>
+        <!-- ordeded list -->     <!-- start ==> position -->
+        <ol type="A" start="4">  <!-- or value  ol type="1" start="50" = li value="50"-->
+            <li value="4">Football</li>
+            <li>Tennis</li>
+            <li>Hokey</li>
+        </ol>
+        <!-- data list -->
+        <dl>
+            <dt>HTML</dt>
+            <dd>Hyper Text Manipulate Language</dd>
+        </dl>
+        <dl>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheet</dd>
+        </dl>
+        <hr>
+        <!-- Practice from 15 to 18 -->
+        <!-- Table -->
+        <table border="1">
+            <caption>Students Marks</caption>
+            <thead> <!-- thead ==> Optional اختيارية-->
+                <tr>
+                    <th>FirstName</th>
+                    <th>LastName</th>
+                    <th>Marks</th>
+                </tr>
+            </thead>
+            <tbody>
+                <td>Mohamed</td>
+                <td>Esmail</td>
+                <td>30</td>
+            </tbody>
+            <tbody>
+                <td>Mahmoud</td>
+                <td>Diab</td>
+                <td>60</td>
+            </tbody>
+            <tbody>
+                <td>Ahmed</td>
+                <td>Khairy</td>
+                <td>70</td>
+            </tbody>
+            <tbody>
+                <td colspan="2">Total</td> 
+                <td>160</td>
+            </tbody>
+        </table>
+        <hr>
+        <p>Welcome in <span>My Website</span></p>
+        <p>Welcome in &lt;My Website&gt;</span></p>
+        <p>جميع الحقوق محفوظة &copy;</p>
+        <p>جميع الحقوق محفوظة &copysr;</p>
+        <!-- Practice from 22 to End -->
+        <!-- video & audio -->
+        <audio src="" autoplay controls loop muted></audio>
+        <br>
+        <video src="videos/Learn HTML In Arabic 2021 - #01 - Introduction and What I Need To Learn.mp4" controls muted autoplay loop poster="images/one.jpeg" width="400" height="200">
+            <track src="my_file_en.vtt" kind="subtitles" srclang="en" label="English">
+            <track src="my_file_it.vtt" kind="subtitles" srclang="it" label="Italian">
+        </video>
+        <hr>
+        <br>
+        <!-- Form -->
+        <form action="BackEnd Team" method="post" target="_blank">
+            <div>
+                <label>Username</label>
+                <input type="text" required placeholder="Username" value="Mahmoud" readonly>
+            </div>
+            <br>
+            <div>
+                <label>password</label>
+                <input type="password" required  minlength="8" maxlength="12" autofocus>
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="email" required type="Email" value="Test@gmail.com">
+            </div>
+            <div>
+                <label>Range</label>
+                <input type="range" name="Range" min="0" max="100" step="20" value="80">
+            </div>
+            <div>
+                <label for="num">Number</label>
+                <input id="num" type="number" name="number" min="0" max="100" step="10">
+            </div>
+            <br>
+            <hr>
+            <!-- Radio -->
+            <div>
+                <input type="radio" value="Male" name="n1" id="id1">
+                <label for="id1">Male</label>
+            </div>
+            <div>
+                <input type="radio" value="Female" name="n1" id="win">
+                <label for="win">Female</label>
+            </div>
+            <br>
+            <hr>
+            <!-- Check box -->
+            <div>
+                <label>HTML</label>
+                <input type="checkbox">
+            </div>
+            <div>
+                <label>CSS</label>
+                <input type="checkbox">
+            </div>
+            <div>
+                <label>JS</label>
+                <input type="checkbox">
+            </div>
+            <br>
+            <hr>
+            <!-- Select -->
+            <label for="sel">Choose Book</label>
+            <select name="Books" id="sel" > <!-- may be multiple-->
+                <optgroup label="Romantic Books">
+                    <option value="1">Book 1</option>
+                    <option value="2">Book 2</option>
+                    <option value="3">Book 3</option>
+                </optgroup>
+                <optgroup label="Bolice Books">
+                    <option value="4" selected>Book 4</option>
+                    <option value="5">Book 5</option>
+                    <option value="6">Book 6</option>
+                </optgroup>
+            </select>
+            <br>
+            <hr>
+            <!-- Text AREA -->
+            <TEXtarea ></TEXtarea>
+            <br>
+            <hr>
+            <!-- To Upload file -->
+            <div>
+                <label for="">Upload</label>
+                <input type="file">
+            </div>
+            <br>
+            <div>
+                <label for="">Search</label>
+                <input type="search">
+            </div>
+            <br>
+            <div>
+                <label for="">URL</label>
+                <input type="url"> 
+            </div>
+            <br>
+            <!-- Date -->
+            <div>
+                <label for="">Date</label>
+                <input type="date"> 
+            </div>
+            <br>
+            <!-- Month -->
+            <div>
+                <label for="">Month</label>
+                <input type="month"> 
+            </div>
+            <br>
+            <!-- Time -->
+            <div>
+                <label for="">Time</label>
+                <input type="time"> 
+            </div>
+            <br>
+            <hr>
+            <!-- List -->
+            <label>list</label>
+            <input list="Programming" name="prog">
+            <datalist id="Programming">
+                <option value="C#"></option>
+                <option value="c++"></option>
+                <option value="jAVA"></option>
+            </datalist>
+            <br>
+            <hr>
+            <input type="submit" value="Save">
+            <input type="reset">
+        </form>
+        <br>
+        <hr>
+        <!-- Qute -->
+        <q>Don't Work hard, Work intelligence</q>
+        <blockquote>importnt Word</blockquote>
+        <br>
+        <hr>
+        <!-- wbr -->
+        <div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.<wbr> Dicta consequatur hic eius culpa quisquam ipsam earum quibusdam recusandae, <wbr>similique facilis. Aut doloremque quae atque, <wbr>temporibus culpa accusantium molestiae natus quibusdam!
+        </div>
+        <p>2السلام  Welcome </p>
+        <p><bdi>السلام</bdi>2 Welcome</p>
+        <br>
+        <hr>
+        <!-- pre -->
+        <code>
+            <pre>
+                int x = 10;
+                int y = 20;
+                int sum = x + y;
+                cout << sum;
+            </pre>
+        </code>
+        <br>
+        <hr>
+        <!-- iframe -->
+        <iframe src="https://www.youtube.com/" frameborder="0" width="400px" height="200px"></iframe>
+        <br>
+        <hr>
+        
+    </body>
+</html>
+
+
+
+
+
+<!--Some Notes 
+    
+    ins ==> inserted text
+    sub ==> subscript h2o 
+    sup ==> superscript 2^3
+    
+    ul ==> un ordered list
+    li ==> list item
+    ol ==> ordered list type="1" or "A" or I  reversed start="100"
+    dl ==> data list 
+    dt ==> Term 
+    dd ==> data term 
+    <br> ==> new line
+    to print "<" in html ==> &lt; means==>& less than
+    to print ">" in html ==> &gt; & greater than
+    <form action="اسم الملف اللي بيتحفظ  فيه البيانات As a backend">
+    <form method="post" عشان البيانات متظهرش في URL>
+    autofocus ==> اول ما يعمل ريفريش للصفحة الكرسر بيروح عليها 
+    wbr ==> word break 
+-->
